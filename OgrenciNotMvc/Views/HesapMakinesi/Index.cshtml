@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form class="form-group" method="post">
+    <div>
+
+        Sayı 1 : <input type="text" name="sayi1" id="sayi1" /> <br />
+        <br />
+        Sayı 2 : <input type="text" name="sayi2" id="sayi2" /> <br />
+        <br />
+        <button class="btn btn-warning">Hesapla</button>
+        <br />
+        <br />
+        
+        Toplama Sonucu : <label> @ViewBag.topla </label>
+        <br />
+        Çıkarma Sonucu :<label> @ViewBag.cikar </label>
+        <br />
+        Çarpma Sonucu :<label> @ViewBag.carpma </label>
+        <br />
+        Bölme Sonucu :<label> @ViewBag.bol </label>
+
+    </div>
+</form>
